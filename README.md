@@ -1,5 +1,4 @@
 ﻿# Automatas y gramática
- # Trabajo práctico 1
 
 Integrantes:
 - Francisco Merenda
