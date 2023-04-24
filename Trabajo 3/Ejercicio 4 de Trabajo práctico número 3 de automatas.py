@@ -10,15 +10,22 @@ count = len(divisor)
 dictionary = {}
 
 for word in divisor:
-    if word in divisor:
+    if word in dictionary:
         dictionary[word] += 1
     else:
         dictionary[word] = 1
 
 print(dictionary)
 
-repeat_word = max(dictionary)
-print(dictionary)
+max_repeat = 0
+word_max_repeat = ""
 
+for word,repeat_word in dictionary.items():
+    if repeat_word > max_repeat:
+        max_repeat = repeat_word
+        word_max_repeat = word
 
+print("the word that repite it more is:", word_max_repeat)
+
+print("the numbers of times that repeats it is:", max_repeat)
 
