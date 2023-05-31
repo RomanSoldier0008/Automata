@@ -1,0 +1,5 @@
+www.promiedos.com
+example.ar
+http://www.diariouno_com
+www.whatsapp.com
+http://www.example.com?query=invalid&
